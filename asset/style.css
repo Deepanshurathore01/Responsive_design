@@ -10,8 +10,8 @@ html,body {
 .main{
   width: 100%;
   height: 100%;
- 
  position: relative;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   
 }
 
@@ -44,6 +44,15 @@ html,body {
  
   font-weight: 800;
   display: none;
+}
+.nav a{
+  text-decoration: none;
+  color: #000;
+}
+
+.nav a:hover{
+  text-decoration: underline;
+  font-size: 2vw;
 }
 
 .nav button{
@@ -106,6 +115,104 @@ html,body {
   width: 100%;
 }
 
+.course{
+  width: 100%;
+  height: 300px;
+  /* background-color: #dadada; */
+  padding: 4vw 4vw;
+}
+.course h1{
+  padding: 1vw 3.4vw;
+  font-size: 2rem;
+  text-align: center;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  padding: 3vw 4vw;
+}
+.col1{
+  width: 25%;
+  height: 40vh;
+  /* background-color: aqua; */
+  border: 2px solid rgb(241, 239, 239);
+  border-radius: 10px;
+}
+.col1 h1{
+  font-size: 2vw;
+  
+}
+.col1 p{
+  padding: 0 3vw;
+  font-size: 1rem;
+}
+.col1 button{
+  font-size: 1vw;
+  padding: 1.2vw 2vw;
+  background-color: #EF5F22;
+  color: #fff;
+  font-weight: 800;
+  margin-left :5vw;
+  margin-top: 1.2vw;
+  margin-bottom: 1.2vw;
+  border: none;
+  border-radius: 5px;
+}
+.col2{
+  width: 25%;
+  height: 40vh;
+  border: 2px solid rgb(241, 239, 239);
+  border-radius: 10px;
+}
+.col2 h1{
+  font-size: 2vw;
+  
+}
+.col2 p{
+  padding: 0 3vw;
+  font-size: 1rem;
+}
+.col2 button{
+  font-size: 1vw;
+  padding: 1.2vw 2vw;
+  background-color: #EF5F22;
+  color: #fff;
+  font-weight: 800;
+  margin-left:5vw;
+  margin-top: 1.2vw;
+  margin-bottom: 1.2vw;
+  border: none;
+  border-radius: 5px;
+}
+.col3{
+  width: 25%;
+  height: 40vh;
+  border: 2px solid rgb(241, 239, 239);
+  border-radius: 10px;
+}
+.col3 h1{
+  font-size: 2vw;
+  
+}
+.col3 p{
+  padding: 0 3vw;
+  font-size: 1rem;
+}
+.col3 button{
+  font-size: 1vw;
+  padding: 1.2vw 2vw;
+  background-color: #EF5F22;
+  color: #fff;
+  font-weight: 800;
+  margin-left:5vw;
+  margin-top: 1.2vw;
+  margin-bottom: 1.2vw;
+  border: none;
+  border-radius: 5px;
+}
+
 
 @media(max-width:600px){
   .nav{
@@ -155,5 +262,15 @@ html,body {
     border-radius: 4px;
     font-weight: 600;
   }
+
+  .course{
+    height: calc(100% - 300px);
+    flex-direction: column;
+  }
+  .course h1{
+    padding: 4vw 6vw;
+    font-size: 2rem;
+  }
+  
 }
 
