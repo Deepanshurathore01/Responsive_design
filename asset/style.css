@@ -41,9 +41,9 @@ html,body {
   font-size: 1.5vw;
 }
 .nav i{
- 
+  display:none;
   font-weight: 800;
-  display: none;
+  
 }
 .nav a{
   text-decoration: none;
@@ -117,7 +117,7 @@ html,body {
 
 .course{
   width: 100%;
-  height: 300px;
+  height: 36vw;
   /* background-color: #dadada; */
   padding: 4vw 4vw;
 }
@@ -213,6 +213,100 @@ html,body {
   border-radius: 5px;
 }
 
+/* anout us page  */
+.about-us{
+  width: 100%;
+  height:60vh;
+  /* background-color: #EF5F22; */
+  padding: 3vw 0;
+}
+.about-us h2{
+  font-size: 2rem;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  height:100%;
+  /* background-color: aliceblue; */
+  display: flex;
+  align-items: center;
+  
+}
+.l1 {
+  width: 60%;
+  height:100%;
+  /* background-color: #EF5F22; */
+  padding: 3vw 5vw;
+}
+.l1 h3{
+  font-size: 3vw;
+  line-height: 5vw;
+}
+.l1 p{
+  font-size: 1.2vw;
+  line-height: 1.5;
+}
+.r1{
+  width: 40%;
+  height: 100%;
+  
+}
+.r1 img{
+  width: 25vw;
+  margin: 0 8vw;
+  /* height:100%; */
+}
+.contact {
+  padding:5vw 0;
+  height: 33vw;
+  position: relative;
+  margin: auto
+}
+.contact h2{
+  font-size: 2rem;
+  text-align: center  ;
+  padding: 2vw 0;
+}
+.v1{
+  width: 40vw;
+  height: 40vh;
+  /* background-color: #EF5F22; */
+  border: 3px solid #3e3d3c;
+  line-height: 2vw;
+  padding: 1vw;
+  position: absolute;
+  left:30%;
+}
+.v1 h1{
+  font-size:26px;
+  padding:5px; 
+  text-align:center; 
+  font-weight:bold; 
+  color:#0e0f0f;
+}
+.email{
+  padding:10px;
+  border-bottom:1px dotted grey;
+}
+.name{
+  padding:10px; border-bottom:1px dotted grey;
+}
+.btn{
+  text-align: center;
+   padding:10px;
+    width:30%; 
+    background-color:#EF5F22;
+     color:#FFFFFF; font-weight:bold;
+      border-radius:25px;
+      margin-top :30px;
+}
+.footer{
+  width: 100%;
+  height: 20vw;
+  background-color: #EF5F22;
+}
+
 
 @media(max-width:600px){
   .nav{
@@ -231,11 +325,12 @@ html,body {
   }
   .nav i{
     display: block;
-    font-size: 6vw;
+    font-size: 7vw;
+    color:black;
   }
   .content{
     height: calc(100% - 100px);
-    flex-direction: column;
+    /* flex-direction: column; */
   }
   .left{
     width:100%;
@@ -264,12 +359,85 @@ html,body {
   }
 
   .course{
-    height: calc(100% - 300px);
-    flex-direction: column;
+    /* height: calc(100% - 300px); */
+    /* flex-direction: column; */
+    gap: 10px;
   }
   .course h1{
     padding: 4vw 6vw;
     font-size: 2rem;
+  }
+  
+  .col1{
+    width:70vw;
+    height:40vh;
+    margin: 7vw 0;
+  }
+
+  .col1 button{
+    font-size: 5vw;
+  padding: 4vw 8vw;
+  background-color: #EF5F22;
+  margin: 7vw 10vw;
+  border: 1px solid grey;
+  }
+  .col1 h1{
+    font-size: 2rem;
+    
+  }
+  .col1 p{
+    padding: 0 4vw;
+    font-size: 1rem;
+  }
+  .col2{
+    width:70vw;
+    height:40vh;
+  }
+  .col2{
+    width:70vw;
+    height:40vh;
+    margin: 7vw 0;
+  }
+
+  .col2 button{
+    font-size: 5vw;
+  padding: 4vw 8vw;
+  background-color: #EF5F22;
+  margin: 7vw 10vw;
+  border: 1px solid grey;
+  }
+  .col2 h1{
+    font-size: 2rem;
+    
+  }
+  .col2 p{
+    padding: 0 4vw;
+    font-size: 1rem;
+  }
+  .col3{
+    width:70vw;
+    height:40vh;
+  }
+  .col3{
+    width:70vw;
+    height:40vh;
+    margin: 7vw 0;
+  }
+
+  .col3 button{
+    font-size: 5vw;
+  padding: 4vw 8vw;
+  background-color: #EF5F22;
+  margin: 7vw 10vw;
+  border: 1px solid grey;
+  }
+  .col3 h1{
+    font-size: 2rem;
+    
+  }
+  .col3 p{
+    padding: 0 4vw;
+    font-size: 1rem;
   }
   
 }
