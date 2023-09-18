@@ -258,7 +258,7 @@ html,body {
   /* height:100%; */
 }
 .contact {
-  padding:5vw 0;
+  padding:5vw 4vw;
   height: 33vw;
   position: relative;
   margin: auto
@@ -270,7 +270,7 @@ html,body {
 }
 .v1{
   width: 40vw;
-  height: 40vh;
+  height: 60vh;
   /* background-color: #EF5F22; */
   border: 3px solid #3e3d3c;
   line-height: 2vw;
@@ -299,13 +299,29 @@ html,body {
     background-color:#EF5F22;
      color:#FFFFFF; font-weight:bold;
       border-radius:25px;
-      margin-top :30px;
+      margin-top :10px;
 }
-.footer{
-  width: 100%;
-  height: 20vw;
+
+textarea{
+  width: 38vw;
+  height: 15vh;
+  margin-top: 2vw;
+}
+
+/* footer section  */
+#footer {
+  padding: 3% 15%;
+  text-align: center;
   background-color: #EF5F22;
+  margin-top: 30px;
 }
+.social-icons{
+  margin: 30px 10px;
+  font-size: 30px;
+}
+
+
+
 
 
 @media(max-width:600px){
@@ -438,6 +454,10 @@ html,body {
   .col3 p{
     padding: 0 4vw;
     font-size: 1rem;
+  }
+
+  .about-us{
+    margin: 3vw 4vw;
   }
   
 }
